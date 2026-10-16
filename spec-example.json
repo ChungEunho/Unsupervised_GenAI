@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "title": "Denoising Diffusion Probabilistic Models",
+    "file": "ddpm.pdf"
+  },
+  "confirmed_at": "2026-10-16T15:00:00+09:00",
+  "items": [
+    {
+      "id": "R1",
+      "section": "method",
+      "content": "Forward process가 데이터에 점진적으로 노이즈를 추가하는 Markov chain임을 시각적으로 설명",
+      "source": "user",
+      "evidence": { "pages": [2], "figures": ["Figure 2", "Eq. 2"] }
+    },
+    {
+      "id": "R2",
+      "section": "result",
+      "content": "CIFAR-10 FID 3.17로 당시 SOTA 달성을 수치와 함께 제시",
+      "source": "llm",
+      "evidence": {
+        "pages": [7],
+        "figures": ["Table 1"],
+        "quote": "We obtain an FID score of 3.17 on unconditional CIFAR10."
+      }
+    }
+  ]
+}
